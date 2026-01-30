@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-complement-shape",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the shape defined by the dimensions which are not included in a list of dimensions.",
   "license": "Apache-2.0",
   "author": {
@@ -39,14 +39,14 @@
   "dependencies": {
     "@stdlib/array-base-indices-complement": "github:stdlib-js/array-base-indices-complement#main",
     "@stdlib/array-base-take-indexed": "^0.2.2",
-    "@stdlib/ndarray-base-to-unique-normalized-indices": "github:stdlib-js/ndarray-base-to-unique-normalized-indices#main",
+    "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-filled": "^0.2.2",
     "@stdlib/array-base-zip": "github:stdlib-js/array-base-zip#main",
     "@stdlib/assert-is-array": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
@@ -84,7 +84,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
