@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-complement-shape",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return the shape defined by the dimensions which are not included in a list of dimensions.",
   "license": "Apache-2.0",
   "author": {
@@ -37,21 +37,21 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-indices-complement": "github:stdlib-js/array-base-indices-complement#main",
-    "@stdlib/array-base-take-indexed": "^0.2.2",
-    "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.0",
+    "@stdlib/array-base-indices-complement": "^0.1.0",
+    "@stdlib/array-base-take-indexed": "^0.2.3",
+    "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.1",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-filled": "^0.2.2",
-    "@stdlib/array-base-zip": "github:stdlib-js/array-base-zip#main",
-    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/array-base-zip": "^0.1.0",
+    "@stdlib/assert-is-array": "^0.2.3",
     "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
