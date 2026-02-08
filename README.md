@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import complementShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-complement-shape@deno/mod.js';
+import complementShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-complement-shape@v0.1.1-deno/mod.js';
 ```
 
 #### complementShape( shape, dims )
@@ -94,7 +94,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import zip from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zip@deno/mod.js';
 import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import complementShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-complement-shape@deno/mod.js';
+import complementShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-complement-shape@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'int32'
